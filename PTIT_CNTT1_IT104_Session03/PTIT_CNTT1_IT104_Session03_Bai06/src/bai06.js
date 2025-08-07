@@ -1,0 +1,19 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let num1 = 1;
+let num2 = 2;
+let num3 = num1 + num2;
+console.log(num3); // = 3
+num3 = num1 - num2;
+console.log(num3); // = -1
+num3 = num1 * num2;
+console.log(num3); // = 2
+num3 = num1 / num2;
+console.log(num3); // = 0,5
+let num4 = "2";
+let num5 = true;
+num3 = num4 + num5;
+console.log(num3); // = 2true (vi ep kieu string)
+num3 = num5 + num4;
+console.log(num3); // = true2 (vi ep kieu string)
+//# sourceMappingURL=bai06.js.map
