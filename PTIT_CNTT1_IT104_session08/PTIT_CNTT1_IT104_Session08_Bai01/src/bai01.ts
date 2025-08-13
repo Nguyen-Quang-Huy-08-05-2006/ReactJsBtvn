@@ -9,6 +9,9 @@ enum WeekDays {
 }
 
 console.log("Các ngày trong tuần:");
-Object.values(WeekDays).forEach(day => {
-    console.log(day);
-});
+// Dùng for...in duyệt qua key của enum
+for (let day in WeekDays) {
+    if (WeekDays.hasOwnProperty(day)) {
+        console.log(WeekDays[day as keyof typeof WeekDays]);
+    }
+}
