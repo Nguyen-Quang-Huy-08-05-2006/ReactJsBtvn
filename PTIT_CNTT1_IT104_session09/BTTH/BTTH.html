@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Menu Chức Năng</title>
+  </head>
+  <body>
+    <h1>Menu Chức Năng & Thang Điểm Chi Tiết</h1>
+    <ol>
+      <li>Thêm khách hàng mới.</li>
+      <li>Thêm sản phẩm mới (cho chọn loại: Đồ điện tử, Quần áo).</li>
+      <li>
+        Tạo đơn hàng mới (chọn khách hàng, chọn các sản phẩm và số lượng).
+      </li>
+      <li>Hủy đơn hàng (hoàn trả số lượng sản phẩm về kho).</li>
+      <li>Hiển thị danh sách sản phẩm còn hàng trong kho (sử dụng filter).</li>
+      <li>Hiển thị danh sách đơn hàng của một khách hàng (sử dụng filter).</li>
+      <li>Tính và hiển thị tổng doanh thu của cửa hàng (sử dụng reduce).</li>
+      <li>Thống kê sản phẩm theo danh mục (sử dụng reduce hoặc map).</li>
+      <li>Cập nhật tồn kho cho một sản phẩm (sử dụng findIndex).</li>
+      <li>Tìm kiếm và hiển thị thông tin bằng ID (sử dụng hàm generic).</li>
+      <li>
+        Xem thông tin chi tiết (bảo hành/size, màu) của một sản phẩm (sử dụng
+        find).
+      </li>
+      <li>Thoát chương trình.</li>
+    </ol>
+
+    <label for="choice">Nhập lựa chọn của bạn: </label>
+    <input type="number" id="choice" min="0" max="12" />
+    <button onclick="handleChoice()">Xác nhận</button>
+
+    <div id="result"></div>
+
+    <script src="./dist/BTTH.js"></script>
+  </body>
+</html>

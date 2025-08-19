@@ -14,3 +14,8 @@ cd PTIT_CNTT1_IT104_Session00_Bai00
   },
   "include": ["src/**/*"]
 }
+npm create vite@latest
+Chọn công nghệ React
+Chọn ngôn ngữ  TypeScript + SWC
+npm install để tải các package cho dự án
+npm run dev để chạy dự án

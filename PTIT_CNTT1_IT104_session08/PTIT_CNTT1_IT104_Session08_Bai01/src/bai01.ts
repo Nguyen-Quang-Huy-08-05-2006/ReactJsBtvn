@@ -9,7 +9,6 @@ enum WeekDays {
 }
 
 console.log("Các ngày trong tuần:");
-// Dùng for...in duyệt qua key của enum
 for (let day in WeekDays) {
     if (WeekDays.hasOwnProperty(day)) {
         console.log(WeekDays[day as keyof typeof WeekDays]);

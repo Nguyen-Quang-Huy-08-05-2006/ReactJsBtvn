@@ -1,13 +1,12 @@
-function findElement<T>(arr: T[], value: T): T | undefined {
+function findFirst<T>(arr: T[]): T | undefined {
     for (let item of arr) {
-        if (item === value) {
+        if (typeof item === "number" && item % 2 === 0) {
             return item;
         }
     }
     return undefined;
 }
 
-console.log(findElement([1, 2, 3, 4], 3));
-console.log(findElement(["a", "b", "c"], "b"));
-console.log(findElement([true, false, true], false));
-console.log(findElement([1, 2, 3], 5));
+console.log(findFirst([1, 3, 4, 5, 6]));
+console.log(findFirst(["a", "b", 2, 4])); 
+
