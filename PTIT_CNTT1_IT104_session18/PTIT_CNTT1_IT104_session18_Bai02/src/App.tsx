@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import CountText from "../components/CounText ";
+import UserList from "../components/UserList";
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <CountText />
+        <UserList />
       </div>
     );
   }

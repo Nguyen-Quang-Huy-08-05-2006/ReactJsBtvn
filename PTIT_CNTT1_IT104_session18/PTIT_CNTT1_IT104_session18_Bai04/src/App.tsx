@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import CountText from "../components/CounText ";
+import ColorPicker from "../components/ColorPicker";
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <CountText />
+        <ColorPicker />
       </div>
     );
   }

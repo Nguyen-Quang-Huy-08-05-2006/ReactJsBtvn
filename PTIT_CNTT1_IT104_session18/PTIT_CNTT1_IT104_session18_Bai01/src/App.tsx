@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import CountText from "../components/CounText ";
+import Increase from "../components/Increase";
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <CountText />
+        <Increase />
       </div>
     );
   }

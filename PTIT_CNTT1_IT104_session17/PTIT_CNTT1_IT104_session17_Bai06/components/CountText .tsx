@@ -12,7 +12,7 @@ export default function CounText() {
   return (
     <div>
       <h2>Đếm ký tự & từ</h2>
-      <textareavalue={text} onChange={handleChange} />
+      <textarea value={text} onChange={handleChange} />
       <div>
         <p>Số ký tự: {charCount}</p>
       </div>
