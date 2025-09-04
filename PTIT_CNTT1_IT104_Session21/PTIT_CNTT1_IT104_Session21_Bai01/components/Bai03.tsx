@@ -1,4 +1,4 @@
-export default function Circles() {
+export default function Bai03() {
   return (
     <div className="flex gap-2">
       <div className="w-[200px] h-[200px] rounded-full bg-[#3b82f6]"></div>
