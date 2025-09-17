@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Bài viết A",
+      "image": "🌸",
+      "date": "2025-09-01",
+      "status": "Đã xuất bản"
+    },
+    {
+      "id": 2,
+      "title": "Bài viết B",
+      "image": "⚛️",
+      "date": "2025-09-05",
+      "status": "Ngừng xuất bản"
+    }
+  ]
+}
