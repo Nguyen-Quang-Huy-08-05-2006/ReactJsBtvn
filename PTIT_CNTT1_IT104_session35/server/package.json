@@ -1,0 +1,11 @@
+{
+  "name": "session35-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "json-server --watch db.json --port 5000 --delay 200"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
